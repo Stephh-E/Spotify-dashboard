@@ -43,3 +43,20 @@
 ## Deployment & Security
 
 - Netlify env variable
+
+## Usefule resources
+
+- [Spotify Dev Docs] (https://developer.spotify.com/documentation/web-api)
+
+
+
+# Spotify Usage Flow
+
+1. User clicks button to sign in via Spotify
+2. App redirects to Spotify's signin page
+3. User clicks on Spotify to sign in
+4. Spotify finishes the sign in, and redirects to our designed "ReDirect URI"
+5. React app detects Spotify's signin result and processes it
+6. Save the processed result to state and/or local storage and/or context
+7. Components throughout the React app reach up to grab the access token and use that in fetch requests
+
