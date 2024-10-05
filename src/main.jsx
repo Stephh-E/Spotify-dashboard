@@ -6,10 +6,10 @@ import { ThemeContextProvider } from './contexts/ThemeContextProvider.jsx'
 import {SpotifyAuthProvider} from './contexts/SpotifyAuthProvider.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>x
+  <StrictMode>
     <ThemeContextProvider>
       <SpotifyAuthProvider>
-        
+
       <App />
       </SpotifyAuthProvider>
     </ThemeContextProvider>
